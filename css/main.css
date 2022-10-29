@@ -51,38 +51,6 @@ body {
   justify-content: space-between;
 }
 
-.header-menu {
-  padding: 0;
-  margin: 1.6rem 0;
-}
-
-.header-menu ul {
-  padding: 0;
-  margin: 0;
-  display: flex;
-  justify-content: space-between;
-  align-items: baseline;
-}
-
-.header-menu li {
-  display: inline-block;
-}
-
-.header-menu-item {
-  font-family: 'Open Sans', sans-serif;
-  font-size: 2.4rem;
-}
-
-.header-menu-item:first-child {
-  font-family: 'Averia Serif Libre', cursive;
-  font-size: 4rem;
-}
-
-.header-menu-item a {
-  color: inherit;
-  text-decoration: none;
-}
-
 .intro-heading {
   margin: 1rem 0;
   font-size: 4rem;
