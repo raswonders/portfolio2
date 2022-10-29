@@ -1,0 +1,369 @@
+/* hidden attr cannot be overwritten by display change */
+
+[hidden] {
+  display: none !important;
+}
+
+/* default font-size is 1.6rem */
+
+html {
+  font-size: 10px;
+}
+
+body {
+  font-size: 1.6rem;
+}
+
+/* default box-sizing is border-box */
+
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+/* custom css */
+
+/* Fonts used
+    Open Sans (w300 w400)
+    Averia Serif Libre (w400 w700)
+
+    font-family: 'Averia Serif Libre', cursive;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+*/
+
+:root {
+  --cyan: #86DFE2;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+.hero-section {
+  height: 100%;
+  display: flex;
+  flex-flow: column;
+  justify-content: space-between;
+}
+
+.header-menu {
+  padding: 0;
+  margin: 1.6rem 0;
+}
+
+.header-menu ul {
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+.header-menu li {
+  display: inline-block;
+}
+
+.header-menu-item {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 2.4rem;
+}
+
+.header-menu-item:first-child {
+  font-family: 'Averia Serif Libre', cursive;
+  font-size: 4rem;
+}
+
+.header-menu-item a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.intro-heading {
+  margin: 1rem 0;
+  font-size: 4rem;
+  font-weight: 300;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.cta-btn {
+  display: block;
+  padding: 1rem 1.5rem;
+  margin: 1rem 0 3.2rem 0;
+  max-width: max-content;
+  font-family: 'Open Sans', sans-serif;
+  color: white;
+  text-decoration: none;
+  background: black;
+}
+
+.portrait-image {
+  display: block;
+  margin-left: -1.6rem;
+  margin-right: -1.6rem;
+}
+
+/* Bio section */
+
+.bio-section {
+  display: flex;
+  flex-flow: column;
+}
+
+.portfolio-section {
+  display: flex;
+  flex-flow: column;
+}
+
+.section-title {
+  margin: 0;
+  padding: 3.2rem 0;
+  font-family: 'Averia Serif Libre', cursive;
+  font-size: 4rem;
+  font-weight: bold;
+  text-align: center;
+}
+
+.bio-paragraph {
+  margin: 0;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.4rem;
+}
+
+.skill-list {
+  padding: 0;
+  list-style: none;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 2rem;
+}
+
+
+.project-mockup {
+  margin-bottom: 4.4rem;
+}
+
+.project-shot {
+  max-width: 100%;
+  border-radius: 10px;
+}
+
+.title-bar {
+  margin: 0.8rem 0;
+  display: flex;
+  flex-flow: nowrap;
+  justify-content: space-between;
+  align-items: baseline;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.6rem;
+}
+
+.project-title {
+  font-size: inherit;
+  margin: 0;
+  font-weight: 700;
+}
+
+.title-links {
+  display: flex;
+}
+
+.title-links div {
+  padding-left: 1.5rem;
+}
+
+.project-description {
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.2rem;
+  font-weight: 300;
+}
+
+.skill-tags {
+  display: flex;
+  margin: 0.8rem 0;
+}
+
+.skill-tags>div {
+  padding: 0.2rem 0.8rem;
+  margin-right: 0.5rem;
+  border-radius: 0.2rem;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  font-size: 1.4rem;
+}
+
+.html-skill-tag {
+  background: #B3DEE2;
+}
+
+.css-skill-tag {
+  background: #EAF2D7;
+}
+
+.js-skill-tag {
+  background: #E27396;
+}
+
+
+/* #region Contact section */
+
+.container {
+  margin: 0 1.6rem;
+  max-width: 640px;
+}
+
+.container-hero {
+  margin: 0 1.6rem;
+  max-width: 1024px;
+}
+
+.contact-section {
+  background: var(--cyan);
+}
+
+.message-section,
+.email-section {
+  margin-bottom: 3.2rem;
+}
+
+.connect-section {
+  padding-bottom: 3.2rem;
+}
+
+.subsection-title {
+  font-family: 'Averia Serif Libre', cursive;
+  font-size: 2rem;
+  margin: 0;
+  margin-bottom: 2rem;
+}
+
+.user-details {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.input-container {
+  margin-bottom: 1.6rem;
+  position: relative;
+  height: 4.5rem;
+}
+
+.input-container>input {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  padding: 0.5rem 0;
+  padding-left: 0.8rem;
+  font-size: inherit;
+  border: 0;
+  border-radius: 0.5rem;
+  background-color: rgba(255, 255, 255, 0.4);
+  color: rgba(0, 0, 0, 0.75);
+  font-family: 'Open Sans', sans-serif;
+}
+
+.input-container>input:focus {
+  outline: 0;
+}
+
+.input-container label {
+  position: absolute;
+  z-index: 2;
+  left: 0.8rem;
+  bottom: 1rem;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.8rem;
+  cursor: text;
+}
+
+.input-container .password-icon-wrap {
+  position: absolute;
+  z-index: 1;
+  right: 0;
+  bottom: 0.5rem;
+}
+
+.input-container .icon {
+  position: absolute;
+  z-index: 1;
+  right: 1rem;
+  bottom: 0.8rem;
+  font-size: 2.5rem;
+  color: rgba(0, 0, 0, 0.80);
+}
+
+.input-container>input:focus~label,
+.input-container>input.filled~label {
+  display: none;
+}
+
+.password-hint {
+  font-size: 1.2rem;
+  padding: 0.2rem 0;
+  margin-bottom: 1.6rem;
+  color: rgba(0, 0, 0, 0.6);
+  visibility: hidden;
+}
+
+.input-container:focus-within+.password-hint {
+  visibility: visible;
+}
+
+.email {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 2.4rem;
+  font-weight: 400;
+  text-decoration: none;
+  color: rgba(255,255,255,0.8);
+}
+
+.email-section > .subsection-title {
+  margin-bottom: 1rem;
+}
+
+.social-wrap {
+  width: 250px;
+  display: flex;
+  margin: 0 auto;
+  justify-content: space-between;
+  color: rgba(255, 255, 255, 0.75)
+}
+
+.social-wrap > * {
+  font-size: 5rem;
+}
+
+footer {
+  color: rgba(255,255,255,0.8);
+  font-family: "Open Sans", sans-serif;
+  font-size: 1.1rem;
+  font-weight: 300;
+  background:rgba(0, 0, 0, 0.80)
+}
+
+.footer-container {
+  height: 5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* #endregion */
+
+@media (min-width: 640px) {
+  .container {
+    margin: 0 auto;
+  }
+}
+
+@media (min-width: 1024px) {
+  .container-hero {
+    margin: 0 auto;
+  }
+}
