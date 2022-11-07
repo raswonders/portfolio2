@@ -370,4 +370,8 @@ footer {
   .container-hero {
     margin: 0 auto;
   }
+ 
+  .introduction {
+    font-size: 4.8rem;
+  }
 }
