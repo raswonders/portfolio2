@@ -99,13 +99,6 @@ body {
   margin-right: -1.6rem;
 }
 
-/* Bio section */
-
-.bio-section {
-  display: flex;
-  flex-flow: column;
-}
-
 .portfolio-section {
   display: flex;
   flex-flow: column;
@@ -119,20 +112,6 @@ body {
   font-weight: bold;
   text-align: center;
 }
-
-.bio-paragraph {
-  margin: 0;
-  font-family: 'Open Sans', sans-serif;
-  font-size: 1.4rem;
-}
-
-.skill-list {
-  padding: 0;
-  list-style: none;
-  font-family: 'Open Sans', sans-serif;
-  font-size: 2rem;
-}
-
 
 .project-mockup {
   margin-bottom: 4.4rem;
