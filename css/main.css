@@ -120,6 +120,10 @@ body {
   max-width: 1024px;
 }
 
+.project-section {
+  margin: 0 2.4rem;
+}
+
 .contact-section {
   background: var(--cyan);
 }
