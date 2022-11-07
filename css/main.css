@@ -51,11 +51,25 @@ body {
   justify-content: space-between;
 }
 
-.intro-heading {
-  margin: 1rem 0;
-  font-size: 4rem;
+.intro-wrap {
+  font-family: 'Inter', sans-serif;
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+  flex-flow: column;
+  align-items: center;
+}
+
+.greeting {
+  margin: 0 0 1.6rem 0;
   font-weight: 300;
-  font-family: 'Open Sans', sans-serif;
+  font-size: 20px;
+}
+
+.intro-heading {
+  margin: 0 0 3.2rem 0;
+  font-size: 30px;
+  font-weight: 400;
 }
 
 .cta-btn {
