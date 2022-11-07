@@ -72,6 +72,10 @@ body {
   font-weight: 400;
 }
 
+.introduction > strong {
+  font-weight: 900;
+}
+
 .cta-btn {
   display: block;
   padding: 1rem 1.5rem;
