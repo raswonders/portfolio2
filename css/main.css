@@ -63,12 +63,12 @@ body {
 .greeting {
   margin: 0 0 1.6rem 0;
   font-weight: 300;
-  font-size: 20px;
+  font-size: 2rem;
 }
 
 .introduction {
   margin: 0 0 3.2rem 0;
-  font-size: 30px;
+  font-size: 3rem;
   font-weight: 400;
 }
 
