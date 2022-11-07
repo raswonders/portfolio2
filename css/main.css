@@ -123,6 +123,14 @@ body {
   margin: 0 2.4rem;
 }
 
+.project-title {
+  margin: 0 0 0.4rem 0; 
+  font-family: 'Fira Sans';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 2.4rem;
+}
+
 .contact-section {
   background: var(--cyan);
 }
