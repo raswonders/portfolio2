@@ -100,12 +100,11 @@ body {
 }
 
 .section-title {
-  margin: 0;
-  padding: 3.2rem 0;
-  font-family: 'Averia Serif Libre', cursive;
-  font-size: 4rem;
-  font-weight: bold;
-  text-align: center;
+  margin: 0 0 3.2rem 0;
+  font-family: 'Inter';
+  font-size: 3.2rem; 
+  font-style: normal;
+  font-weight: 600;
 }
 
 /* #region Contact section */
