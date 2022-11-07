@@ -99,11 +99,6 @@ body {
   margin-right: -1.6rem;
 }
 
-.portfolio-section {
-  display: flex;
-  flex-flow: column;
-}
-
 .section-title {
   margin: 0;
   padding: 3.2rem 0;
@@ -112,72 +107,6 @@ body {
   font-weight: bold;
   text-align: center;
 }
-
-.project-mockup {
-  margin-bottom: 4.4rem;
-}
-
-.project-shot {
-  max-width: 100%;
-  border-radius: 10px;
-}
-
-.title-bar {
-  margin: 0.8rem 0;
-  display: flex;
-  flex-flow: nowrap;
-  justify-content: space-between;
-  align-items: baseline;
-  font-family: 'Open Sans', sans-serif;
-  font-size: 1.6rem;
-}
-
-.project-title {
-  font-size: inherit;
-  margin: 0;
-  font-weight: 700;
-}
-
-.title-links {
-  display: flex;
-}
-
-.title-links div {
-  padding-left: 1.5rem;
-}
-
-.project-description {
-  font-family: 'Roboto', sans-serif;
-  font-size: 1.2rem;
-  font-weight: 300;
-}
-
-.skill-tags {
-  display: flex;
-  margin: 0.8rem 0;
-}
-
-.skill-tags>div {
-  padding: 0.2rem 0.8rem;
-  margin-right: 0.5rem;
-  border-radius: 0.2rem;
-  font-family: 'Open Sans', sans-serif;
-  font-weight: 300;
-  font-size: 1.4rem;
-}
-
-.html-skill-tag {
-  background: #B3DEE2;
-}
-
-.css-skill-tag {
-  background: #EAF2D7;
-}
-
-.js-skill-tag {
-  background: #E27396;
-}
-
 
 /* #region Contact section */
 
