@@ -362,20 +362,6 @@ footer {
     margin-bottom: 4rem;
     font-size: 4rem;
   }
-  
-  .cta-btn {
-    display: block;
-    padding: 1.5rem 2.4rem;
-    border-radius: 3rem;
-    font-family: 'PT Serif';
-    font-size: 22px;
-    font-weight: 400;
-    font-size: 22px;
-    letter-spacing: 0.02em;
-    text-decoration: none;
-    color: white;
-    background: #FF7A00;
-  }
 }
 
 
