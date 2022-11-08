@@ -75,7 +75,7 @@ body {
   font-weight: 400;
 }
 
-.introduction > strong {
+.introduction>strong {
   font-weight: 900;
 }
 
@@ -102,7 +102,7 @@ body {
 .section-title {
   margin: 0 0 3.2rem 0;
   font-family: 'Inter';
-  font-size: 3.2rem; 
+  font-size: 3.2rem;
   font-style: normal;
   font-weight: 600;
 }
@@ -124,7 +124,7 @@ body {
 }
 
 .project-title {
-  margin: 0 0 0.4rem 0; 
+  margin: 0 0 0.4rem 0;
   font-family: 'Fira Sans';
   font-style: normal;
   font-weight: 600;
@@ -136,6 +136,33 @@ body {
   font-family: 'PT Serif';
   font-size: 1.4rem;
   font-weight: 400;
+}
+
+.project-btns {
+  margin: 0 0 1.6rem 0;
+  display: flex;
+}
+
+.project-btn {
+  display: inline-block;
+  padding: 0.5rem 1.9rem;
+  border-radius: 2rem;
+  border: 1px solid black;
+  
+  font-family: 'Fira Sans';
+  font-size: 16px;
+  font-weight: 400;
+  text-decoration: none;
+  color: black;
+}
+
+.project-btn:nth-child(2) {
+  margin-left: 1.4rem;
+}
+
+.live-btn {
+  border-color: var(--orange);
+  color: var(--orange);
 }
 
 .contact-section {
@@ -238,10 +265,10 @@ body {
   font-size: 2.4rem;
   font-weight: 400;
   text-decoration: none;
-  color: rgba(255,255,255,0.8);
+  color: rgba(255, 255, 255, 0.8);
 }
 
-.email-section > .subsection-title {
+.email-section>.subsection-title {
   margin-bottom: 1rem;
 }
 
@@ -253,16 +280,16 @@ body {
   color: rgba(255, 255, 255, 0.75)
 }
 
-.social-wrap > * {
+.social-wrap>* {
   font-size: 5rem;
 }
 
 footer {
-  color: rgba(255,255,255,0.8);
+  color: rgba(255, 255, 255, 0.8);
   font-family: "Open Sans", sans-serif;
   font-size: 1.1rem;
   font-weight: 300;
-  background:rgba(0, 0, 0, 0.80)
+  background: rgba(0, 0, 0, 0.80)
 }
 
 .footer-container {
@@ -283,7 +310,7 @@ footer {
     margin-bottom: 2.4rem;
     font-size: 2.4rem;
   }
-  
+
   .introduction {
     margin-bottom: 4rem;
     font-size: 4rem;
@@ -296,7 +323,7 @@ footer {
   .container-hero {
     margin: 0 auto;
   }
- 
+
   .introduction {
     font-size: 4.8rem;
   }
