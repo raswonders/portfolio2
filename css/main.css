@@ -123,6 +123,49 @@ body {
   margin: 0 2.4rem;
 }
 
+.project-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.side-menu {
+  font-family: 'Inter';
+  font-weight: 400;
+  font-size: 16px;
+  display: none;
+}
+
+.side-menu menu,
+.side-menu ul {
+  margin: 0;
+  padding: 0;
+}
+
+.side-menu ul {
+  list-style: none;
+  padding-top: 0.8rem;
+  padding-left: 0.4rem;
+}
+
+.side-menu li {
+  margin-bottom: 0.5rem;
+}
+
+.side-menu li:hover {
+  
+}
+
+.side-menu li:hover::marker {
+  content: "/  ";
+  color: var(--orange)
+}
+
+.project-list {
+  display: flex;
+  flex-flow: column;
+  margin-left: auto;
+}
+
 .project {
   margin-bottom: 6rem;
   align-self: flex-end;
@@ -340,6 +383,12 @@ footer {
   .project-description {
     font-size: 1.6rem;
   } 
+}
+
+@media (min-width: 720px) {
+  .side-menu {
+    display: block;
+  }
 }
 
 
