@@ -120,11 +120,15 @@ body {
 }
 
 .project-section {
+  display: flex;
+  flex-flow: column;
   margin: 0 2.4rem;
 }
 
 .project {
   margin-bottom: 6rem;
+  align-self: flex-end;
+  max-width: 540px;
 }
 
 .project-title {
@@ -314,6 +318,12 @@ footer {
     margin: 0 auto;
   }
 
+  .section-title {
+    margin: 0 0 4rem 0;
+    font-size: 4rem;
+  }
+
+  /* Hero section */
   .greeting {
     margin-bottom: 2.4rem;
     font-size: 2.4rem;
@@ -323,6 +333,15 @@ footer {
     margin-bottom: 4rem;
     font-size: 4rem;
   }
+
+  /* Project section */
+  .project-title {
+    font-size: 3.2rem;
+  }
+  
+  .project-description {
+    font-size: 1.6rem;
+  } 
 }
 
 
