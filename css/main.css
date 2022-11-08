@@ -123,6 +123,10 @@ body {
   margin: 0 2.4rem;
 }
 
+.project {
+  margin-bottom: 6rem;
+}
+
 .project-title {
   margin: 0 0 0.4rem 0;
   font-family: 'Fira Sans';
