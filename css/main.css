@@ -152,7 +152,7 @@ body {
 }
 
 .side-menu li:hover {
-  
+  cursor: pointer;
 }
 
 .side-menu li:hover::marker {
