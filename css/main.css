@@ -110,13 +110,8 @@ body {
 /* #region Contact section */
 
 .container {
-  margin: 0 1.6rem;
-  max-width: 640px;
-}
-
-.container-hero {
-  margin: 0 1.6rem;
-  max-width: 1024px;
+  margin: 0 auto;
+  max-width: 900px;
 }
 
 .project-section {
@@ -395,8 +390,6 @@ footer {
     display: block;
   }
 }
-
-
 
 @media (min-width: 1024px) {
   .container-hero {
