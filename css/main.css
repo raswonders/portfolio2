@@ -377,6 +377,7 @@ footer {
 
   /* Project section */
   .project-section {
+    max-width: 760px;
     margin: 0 4.2rem;
   }
 
