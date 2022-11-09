@@ -376,6 +376,10 @@ footer {
   }
 
   /* Project section */
+  .project-section {
+    margin: 0 4.2rem;
+  }
+
   .project-title {
     font-size: 3.2rem;
   }
