@@ -310,11 +310,12 @@ body {
 }
 
 .email {
-  font-family: 'Open Sans', sans-serif;
-  font-size: 2.4rem;
+  font-family: 'Fira Sans';
+  font-size: 2.2rem;
   font-weight: 400;
   text-decoration: none;
-  color: rgba(255, 255, 255, 0.8);
+  letter-spacing: 0.02em;
+  color: var(--orange);
 }
 
 .email-section>.subsection-title {
