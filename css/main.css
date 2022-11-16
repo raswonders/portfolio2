@@ -214,6 +214,10 @@ body {
   max-width: 100%;
 }
 
+.contact-section {
+  margin-top: 120px;
+}
+
 .message-section,
 .email-section {
   margin-bottom: 3.2rem;
