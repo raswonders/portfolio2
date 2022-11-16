@@ -114,7 +114,8 @@ body {
   max-width: 900px;
 }
 
-.project-section {
+.project-section,
+.contact-section {
   margin: 0 2.4rem;
 }
 
@@ -211,10 +212,6 @@ body {
 
 .img-project {
   max-width: 100%;
-}
-
-.contact-section {
-  background: var(--cyan);
 }
 
 .message-section,
