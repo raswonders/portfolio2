@@ -323,14 +323,21 @@ body {
 }
 
 .social-wrap {
-  width: 250px;
   display: flex;
+  max-width: min-content;
+  gap: 32px;
   margin: 0 auto;
-  justify-content: space-between;
-  color: var(--orange) 
 }
 
-.social-wrap>* {
+.social-btn {
+  width: 75px;
+  height: 75px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid black;
+  border-radius: 24px;
+  color: var(--orange);
   font-size: 5rem;
 }
 
