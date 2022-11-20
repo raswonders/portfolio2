@@ -111,7 +111,7 @@ body {
 
 .container {
   margin: 0 auto;
-  max-width: 900px;
+  max-width: 800px;
 }
 
 .project-section,
@@ -380,8 +380,8 @@ footer {
   }
 
   /* Project section */
-  .project-section {
-    max-width: 760px;
+  .project-section,
+  .contact-section {
     margin: 0 4.2rem;
   }
 
