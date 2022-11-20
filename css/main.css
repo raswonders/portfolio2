@@ -392,6 +392,11 @@ footer {
   .project-description {
     font-size: 1.6rem;
   } 
+
+  /* Contact section */
+  .social-wrap {
+    margin: 0;
+  }
 }
 
 @media (min-width: 760px) {
