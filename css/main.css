@@ -144,7 +144,7 @@ body {
 }
 
 .side-menu li {
-  margin-bottom: 0.5rem;
+  padding-bottom: 0.5rem;
 }
 
 .side-menu li:hover {
